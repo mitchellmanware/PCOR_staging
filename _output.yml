@@ -1,0 +1,20 @@
+---
+bookdown::gitbook:
+  toc_depth: 2
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./"><img src="images/chords-icon-nobackground.png" width="200"></a></li>
+        <li><a href="./">CHORDS Toolkit</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" 
+        target="blank">Published with bookdown</a></li>
+    download: no
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+      all: no
+---

@@ -1,0 +1,235 @@
+# **A** User Profiles {#chapter-user-profiles .unnumbered}
+
+The CHORDS Toolkit chapters have been developed for various user profiles. 
+This appendix describes the user profiles and suggests relevant chapters for each.
+
+## Clinical Data Manager  {#profilecdm .unnumbered .unlisted}
+![](images/user_profiles/profilecdm.svg)
+
+**What is my area of expertise?**
+
+-   Advanced knowledge of health data systems
+-   Familiarity with some data sources for exposure and sociodemographic information
+-   Advanced data collection, management, and analysis skills
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Readily computed sociodemographic metrics
+-   Exposure and sociodemographic measures that are directly comparable with related measures from other studies
+
+**Relevant Chapters**
+
+-   [NASA EarthData Download](#chapter-nasa-earthdata)
+-   [Linkage to Exposures](#chapter-chords-geo-exposures)
+
+## Clinical Researcher {#profilecre .unnumbered .unlisted}
+![](images/user_profiles/profilecre.svg)
+
+**What is my area of expertise?**
+
+-   In-depth knowledge of health data systems
+-   Background knowledge of the key exposures and risk factors that influence the mechanism of the health outcome
+-   General knowledge of the main data sources for exposure, health, and sociodemographic information
+-   Advanced data collection, management, and analysis skills
+-   Statistical methods to examine population health trends
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Exposure measures that are directly comparable with related measures from other studies
+-   Methods to integrate measures across different spatial geographies
+-   Methods to readily assess known and predicted impacts of exposures on human health
+
+## Clinician/Medical Professional {#profilecmp .unnumbered .unlisted}
+![](images/user_profiles/profilecmp.svg)
+
+**What is my area of expertise?**
+
+-   Advanced knowledge of health conditions and mechanisms of disease 
+-   Background knowledge of key exposures and risk factors that influence the mechanism of the health outcome
+-   Familiarity with some data sources for exposure and sociodemographic information
+-   Advanced knowledge of health data systems
+
+**What resources might I need?**
+
+-   Readily computed exposure metrics
+-   Readily computed sociodemographic metrics
+-   Health data that capture information on the diseases or conditions of interest
+-   Exposure, sociodemographic, and health measures that are directly comparable with related measures from other studies 
+-   Methods for collecting, managing, and analyzing data
+-   Strategies for interpreting analytical results
+
+**Relevant Chapters**
+
+-   [Spatial Data Analysis](#chapter-intro-spatial-data-analysis)
+-   [Linkage to Census Units](#chapter-link-to-census)
+-   [Linkage to Exposures](#chapter-chords-geo-exposures)
+
+## Community Health Worker {#profilechw .unnumbered .unlisted}
+![](images/user_profiles/profilechw.svg)
+
+**What is my area of expertise?**
+
+-   Familiarity with general exposures and related health outcomes of interest
+-   Familiarity with some data sources for exposure, health, and sociodemographic information
+-   Communication of important health information to the public and other stakeholders
+
+**What resources might I need?**
+
+-   Readily computed exposure metrics
+-   Readily computed sociodemographic metrics
+-   Health data that capture information on the diseases or conditions of interest
+-   Key findings or strategies for interpreting analytical results
+-   Data visualizations and other related tools
+
+## Educator {#profileedu .unnumbered .unlisted}
+![](images/user_profiles/profileedu.svg)
+
+**What is my area of expertise?**
+
+-   In-depth knowledge of health data systems
+-   Familiarity with some data sources for exposure, health, and sociodemographic information
+-   Advanced data collection, management, and analysis skills
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Readily computed sociodemographic metrics
+-   Exposure and sociodemographic measures that are directly comparable with related measures from other studies
+
+**Relevant Chapters**
+
+-   [NASA EarthData Download](#chapter-nasa-earthdata)
+
+## Epidemiologist {#profileepi .unnumbered .unlisted}
+![](images/user_profiles/profileepi.svg)
+
+**What is my area of expertise?**
+
+-   Background knowledge of the key risk factors that influence the mechanism of the health outcome
+-   General knowledge of the main sources of data for exposures and health information
+-   Fundamental data collection, management, and analysis skills
+-   Statistical methods to examine population health trends and patterns
+-   Interpretation of analytical findings for broader public health applications
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Exposure measures that are directly comparable with related measures from other studies
+-   Health data that capture information on the disease or condition of interest
+-   Methods to integrate measures across different spatial geographies
+-   Methods to readily identify known and predicted impacts of exposures on human health
+
+
+## Geospatial Analyst {#profilegeo .unnumbered .unlisted}
+![](images/user_profiles/profilegeo.svg)
+
+**What is my area of expertise?**
+
+-   Background knowledge of the key sources and patterns of exposure of interest 
+-   General knowledge of the main sources of geospatial data for exposures
+-   Advanced data collection, management, and analysis skills
+-   Characterization and assessment of exposures
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Exposure measures that are directly comparable with related measures from other studies 
+-   Methods to integrate measures across different spatial geographies
+-   Methods to calculate and predict exposures from multiple sources and time periods
+
+**Relevant Chapters**
+
+-   [NASA EarthData](#chapter-nasa-earthdata)
+
+## Public Health Official {#profilepho .unnumbered .unlisted}
+![](images/user_profiles/profilepho.svg)
+
+**What is my area of expertise?**
+
+-   Familiarity with the exposures and typical health outcomes of interest
+-   Familiarity with general data collection, management, and analysis skills
+-   Communication of important health information to the public and other stakeholders
+
+**What resources might I need?**
+
+-   Readily computed exposure metrics
+-   Readily computed sociodemographic metrics
+-   Health data that capture information on the diseases or conditions of interest
+-   Key findings or strategies for interpreting analytical results
+-   Data visualizations and other related tools
+
+## Social & Behavioral Scientist {#profilesbs .unnumbered .unlisted}
+![](images/user_profiles/profilesbs.svg)
+
+**What is my area of expertise?**
+
+-   Background knowledge of the key exposures and risk factors that influence the mechanism of the health outcome
+-   General knowledge of the main data sources for exposure, health, and sociodemographic information
+-   Advanced data collection, management, and analysis skills
+-   Statistical methods to examine population health trends
+-   Interpretation of analytical findings for broader public health applications
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Exposure measures that are directly comparable with related measures from other studies 
+-   Health data that capture information on the disease or condition of interest
+-   Methods to integrate measures across different spatial geographies
+-   Methods to readily identify known and predicted impacts of exposures on human health
+
+**Relevant Chapters**
+
+-   [Spatial Data Analysis](#chapter-intro-spatial-data-analysis)
+
+## Student {#profilestu .unnumbered .unlisted}
+![](images/user_profiles/profilestu.svg)
+
+**What is my area of expertise?**
+
+-   Background knowledge of the typical health outcomes of interest and key exposures and risk factors influencing these health outcomes
+-   General knowledge of the main data sources for exposure, health, and sociodemographic information
+-   Fundamental data collection, management, and analysis skills
+-   Familiarity with statistical methods to examine population health trends
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Exposure measures that are directly comparable with related measures from other studies 
+-   Health data that capture information on the disease or condition of interest
+-   Methods to integrate measures across different spatial geographies
+-   Methods for collecting, managing, and analyzing data
+
+**Relevant Chapters**
+
+-   [Spatial Data Analysis](#chapter-intro-spatial-data-analysis)
+-   [Linkage to Census Units](#chapter-link-to-census)
+-   [Linkage to Exposures](#chapter-chords-geo-exposures)
+
+## Translational Researcher {#profiletlr .unnumbered .unlisted}
+![](images/user_profiles/profiletlr.svg)
+
+**What is my area of expertise?**
+
+-   Background knowledge of the key exposures and risk factors that influence the mechanism of the health outcome
+-   General knowledge of the main data sources for exposure, health, and sociodemographic information
+-   Advanced data collection, management, and analysis skills
+-   Statistical methods to examine population health trends
+-   Translating analytical findings into interventions and treatments
+
+**What resources might I need?**
+
+-   High spatial and temporal resolution exposure data
+-   Readily computed exposure metrics
+-   Exposure measures that are directly comparable with related measures from other studies
+-   Health data that capture information on the disease or condition of interest
+-   Methods to integrate measures across different spatial geographies
+-   Methods to readily assess known and predicted impacts of exposures on human health

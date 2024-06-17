@@ -1,0 +1,48 @@
+# Linkage to Exposures {#chapter-chords-geo-exposures}
+
+[![Profile-CMP](images/user_profiles/profilecmp.svg)](#profilecmp)
+[![Profile-CDM](images/user_profiles/profilecdm.svg)](#profilecdm)
+[![Profile-STU](images/user_profiles/profilestu.svg)](#profilestu)
+
+### Linking Geocoded Addresses to Various Geospatial Exposure Types Using NIEHS Tools in R {-}
+
+**Date Modified:** August 10, 2023
+
+**Authors:** Lara P. Clark [![author-lpc](images/orcid.png){width=10}](https://orcid.org/0000-0001-6940-5442), Kyle P. Messier [![author-kpm](images/orcid.png){width=10}](https://orcid.org/0000-0001-9508-9623), Sue Nolte, Charles Schmitt [![author-cps](images/orcid.png){width=10}](https://orcid.org/0000-0002-3148-2263) *et al.*
+
+**Key Terms:** [Data Integration](https://tools.niehs.nih.gov/cchhglossary/?keyword=data+integration&termOnlySearch=true&exactSearch=true), [Exposure](https://tools.niehs.nih.gov/cchhglossary/?keyword=exposure&termOnlySearch=true&exactSearch=true), [Exposure Assessment](https://tools.niehs.nih.gov/cchhglossary/?keyword=exposure+assessment&termOnlySearch=true&exactSearch=true), [Geocoded Address](#def-geocoded-address), [Geospatial Data](#def-geospatial-data)
+
+**Programming Language:** R
+
+## Introduction
+
+### Motivation
+
+Climate change and health research draws upon diverse types of open geospatial data to assess individuals' environmental exposures, such as exposure to air pollution, green space, and extreme temperature. Calculating such environmental exposures using open geospatial data can be challenging and can require expertise from multiple disciplines, from geographic information science to exposure science to bioinformatics. Open source software can help reduce barriers and support broader use of open geospatial data for assessing environmental exposures using reproducible methods.
+
+### Approach
+
+This chapter describes NIEHS open source tools to link environmental exposures to individual health data based on geocoded addresses (i.e., geographic coordinates, latitude and longitude). These tools are intended to be accessible to researchers without training in geographic information science (GISc) or geographic information systems (GIS) software. These tools require basic or beginner level programming in `R`.
+
+The tools consist of code, standardized data, and documentation describing use for environmental health applications. Each tool calculates a selection of environmental exposure metrics based on a different source of open geospatial data with national (or approximately national) coverage for United States. Exposure metrics are calculated based on specified point locations (i.e., geocoded address or other geographic coordinates). For data sources that include temporal information, the exposure metrics are also calculated based on specified times. Output of the tool includes the calculated exposure metrics as well as information about data missingness and an optional log file. These tools are designed to be run completely offline as an approach to protect personal geolocation data [@brokamp2018degauss].
+
+These tools depend on the following `R` packages: `sf` [@r-sf-1; @r-sf-2], `terra` [@r-terra], and `tidyverse` [@r-tidyverse].
+
+### Tools
+
+The following summarizes the available tools and planned tools:
+
+|Tool               |Exposure Metrics        |Spatial Details |Temporal Details |Status |  
+|-------------------|------------------------|----------------|-----------------|-------|  
+|[Air pollution (CACES model)](#chapter-geo-exposure-caces)  |Annual average outdoor concentrations of ozone, particulate matter (PM~2.5~, PM~10~), sulfur dioxide, carbon monoxide, and nitrogen dioxide air pollution |Census tracts in the contiguous US  |Yearly during 1979-2015 (varies by pollutant)  |Version 1.0 |
+|[Airport proximity](#chapter-geo-exposure-faa) |Distance to nearest, number within buffer distance, summary of distances (mean, mean of log, 25^th^, 50^th^ and 75^th^ percentiles) within buffer distance |Points in the US |Yearly during 1981-2020  |Version 1.0 |          
+|[Major road proximity](#chapter-geo-exposure-roads) |Distance to nearest, length in buffer distance |Lines in the US |Yearly during 2000-2018  |Version 1.0 |         
+|Air pollution (ACAG model) |Annual average outdoor concentrations of particulate matter (PM~2.5~) and its components |0.01 degree grid in North America |Yearly during 2000-2018  |In Development |           
+|Superfund sites |Distance to nearest, number within buffer distance, summary of distances (mean, mean of log, 25^th^, 50^th^ and 75^th^ percentiles) within buffer distance |Points in the US |2014  |In Development |    
+
+### Additional Resources
+
+Other available tools to calculate environmental exposures for health applications:
+
+-   DeGAUSS geomarker software [@brokamp2018degauss] provides [containerized tools](https://degauss.org/available_images.html) to calculate various geospatial exposure metrics based on geocoded address and state and end date. These metrics include proximity to roadways, traffic, land cover, and vegetation indices.  
+
