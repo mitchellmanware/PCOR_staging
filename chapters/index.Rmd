@@ -1,5 +1,5 @@
 ---
-title: "STAGING-TESTS: The CHORDS Toolkit for Health and Geospatial Exposures Research"
+title: "STAGING-TESTS Update 1: The CHORDS Toolkit for Health and Geospatial Exposures Research"
 author: 
 date: '`r Sys.Date()`'
 site: bookdown::bookdown_site
