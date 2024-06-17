@@ -47,7 +47,7 @@ jobs:
           R -e 'if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager"); BiocManager::install("Biobase")'
 
       - name: Build site for staging branch
-        run: R -e 'bookdown::render_book(, "bookdown::gitbook")'
+        run: R -e 'bookdown::render_book(".", "bookdown::gitbook")'
 
       - name: Debug Repository State
         run: |
