@@ -1,7 +1,7 @@
 ---
-title: The CHORDS Toolkit for Health and Geospatial Exposures Research
+title: "The CHORDS Toolkit for Health and Geospatial Exposures Research"
+subtitle: '`r paste0("Public Version: ", format(Sys.time(), "%m/%d/%Y - %H:%M"))`'
 author: 
-subtitle: '`r paste0("Internal Staging Version: ", format(Sys.time(), "%Y%m%d - %H:%M"))`'
 date: '`r Sys.Date()`'
 site: bookdown::bookdown_site
 documentclass: book
