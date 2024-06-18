@@ -30,7 +30,7 @@ zonal-statistics-1
 reclassify-3
 wildfire-chapter
 chapter-nasa-earthdata
-introduction-1
+introduction
 motivation-1
 objectives-1
 nasa-earthdata-account
@@ -39,7 +39,7 @@ approved-applications
 prerequisite-files
 references
 chapter-link-to-census
-introduction-2
+introduction-1
 motivation-2
 intro-census-geoids
 considerations
@@ -52,7 +52,7 @@ link-to-census-step-3
 link-to-census-step-4
 concluding-remarks
 chapter-chords-geo-exposures
-introduction-3
+introduction-2
 motivation-3
 approach
 tools
